@@ -42,10 +42,6 @@ st.write(filtered_data)
 st.subheader("Statistics")
 st.write(f"Average CGPA in {department} department: {filtered_data['CGPA'].mean():.2f}")
 st.write(f"Number of students in {department} department: {filtered_data.shape[0]}")
-# Run the Streamlit app
-st.subheader("Run the App")
-st.write("To view this app in your browser, run the following command in your terminal:")
-st.code("streamlit run <notebook_name>.py", language="bash")
 
 # Filter students by graduation year
 st.subheader("Filter by Graduation Year")
